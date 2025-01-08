@@ -15,4 +15,9 @@ public class AuthenticationController {
         this.userService = userService;
     }
 
+    @RequestMapping("/login")
+    public void login() {
+
+    }
+
 }
